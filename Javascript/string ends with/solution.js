@@ -1,6 +1,6 @@
-// problem: //www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
+// problem: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
 
-https: function solution(str, ending) {
+function solution(str, ending) {
   const endingLength = ending.length;
   const numberToTrim = str.length - endingLength;
   const trimmedString = str.substring(numberToTrim, 0);
